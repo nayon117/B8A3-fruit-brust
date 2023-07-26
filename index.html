@@ -42,8 +42,48 @@
         }
     </style>
   </head>
-  <body>
-    <header></header>
+  <body class="font-lato">
+    <header class="max-w-screen-xl px-8 md:px-16 lg:px-32 my-3">
+      <nav class=" py-3 bg-back-col text-white  rounded-[600px]">
+        <div class="flex justify-between items-center lg:px-4">
+            <div class="flex-1 ">
+              <ul class="hidden lg:flex lg:justify-around lg:items-center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">All Fruits</a></li>
+              </ul>
+            </div>
+            <div class=" flex-1 ">
+              <div class="flex  lg:justify-center items-center gap-2">
+                <img src="./images/logo.png" alt="">
+                <h3 class="text-xl md:text-3xl font-bold">Fruit Burst</h3>
+              </div>
+            </div>
+            <div class="flex-1 justify-end items-center hidden md:flex ">
+              <div class="relative inline-flex items-center">
+                <input class="px-6 py-4 round rounded-[50px]" type="text" name="" id="" placeholder="Search">
+                <i class="fas fa-search search-icon absolute top-1/2 right-4 transform -translate-y-1/2 text-gray-500"></i>
+              </div>
+            </div>
+
+            <div class="dropdown flex-1 flex justify-end lg:hidden">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  text-black">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+      <!-- banner section  -->
+
+      
+    </header>
     <main></main>
     <footer></footer>
   </body>
